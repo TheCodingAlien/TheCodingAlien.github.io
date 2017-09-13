@@ -114,7 +114,7 @@
 		-ms-behavior: url("assets/js/ie/backgroundsize.min.htc");
 		background-image: url("../../images/bg.jpg");
 		background-size: cover;
-		height: 100%;
+		height: auto;
 	}
 
 		#header:after {
