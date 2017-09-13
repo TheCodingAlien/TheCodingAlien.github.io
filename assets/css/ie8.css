@@ -130,7 +130,16 @@
 			background: #fff;
 			z-index: 1;
 		}
+		
+		
+/* sizeable header image */
 
+.bg.jpg img {
+	max-width: 100%;
+	height: auto;
+	
+}
+ 
 /* Footer */
 
 	#footer {
