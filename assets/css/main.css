@@ -2602,7 +2602,7 @@
 		background-attachment: fixed,							fixed;
 		background-position: top left,						center center;
 		background-repeat: repeat,							none;
-		background-size: auto,							cover;
+		background-size: 100%;							cover;
 		height: 100%;
 		left: 0;
 		opacity: 0;
