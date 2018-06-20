@@ -176,12 +176,12 @@
 
 					}
 
-				// Create bg and append it to body.
+			/* AV not needed 20/06/18	// Create bg and append it to body.
 					$bg = $('<div class="main-bg" id="' + $this.attr('id') + '-bg"></div>')
 						.css('background-image', (
 							'url("css/images/overlay.png"), url("' + $primaryImg.attr('src') + '")'
 						))
-						.appendTo($body);
+						.appendTo($body); */
 
 				// Scrollex.
 					options = {
