@@ -176,7 +176,7 @@
 
 					}
 
-			/* AV not needed 20/06/18	// Create bg and append it to body.
+			/* AV not needed 20/06/18	- Create bg and append it to body.
 					$bg = $('<div class="main-bg" id="' + $this.attr('id') + '-bg"></div>')
 						.css('background-image', (
 							'url("css/images/overlay.png"), url("' + $primaryImg.attr('src') + '")'
@@ -194,8 +194,8 @@
 					if (skel.canUse('transition')) {
 
 						options.init = function() { $bg.removeClass('active'); };
-						options.enter = function() { $bg.addClass('active'); };
-						options.leave = function() { $bg.removeClass('active'); };
+/* AV not needed // options.enter = function() { $bg.addClass('active'); };
+						options.leave = function() { $bg.removeClass('active'); }; */
 
 					}
 					else {
