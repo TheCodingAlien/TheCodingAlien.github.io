@@ -2170,7 +2170,7 @@
 	}
 
 		.image:before {
-			background: url("images/overlay.jng");
+			background: url("images/overlay.jpg");
 			content: '';
 			display: block;
 			height: 100%;
