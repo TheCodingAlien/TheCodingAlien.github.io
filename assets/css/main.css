@@ -1312,8 +1312,8 @@
 	html {
 		background-color: #313a3d;
 		background-attachment: fixed, fixed;
-		background-image: url("../../images/overlay.jpg"), url("../../images/bg.jpg");
-		background-position: top left,					center center;
+		background-image:  url("../../images/bg.jpg"), url("../../images/overlay.jpg");
+		background-position: top left, center;
 		background-repeat: repeat,						none;
 		background-size: auto,						cover;
 	}
@@ -2170,7 +2170,7 @@
 	}
 
 		.image:before {
-			background: url("../../images/overlay.jpg") , url("../../images/bg.jpg");
+			background: */ url("../../images/overlay.jpg") , url("../../images/bg.jpg"); /*
 			content: '';
 			display: block;
 			height: 100%;
