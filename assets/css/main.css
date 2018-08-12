@@ -2170,7 +2170,11 @@
 	}
 
 		.image:before {
+<<<<<<< HEAD
 			background:   url("../../images/bg.jpg"), url("../../images/overlay.jpg");
+=======
+			background: url("images/overlay.jpg");
+>>>>>>> parent of 7ee0ce8... overlay
 			content: '';
 			display: block;
 			height: 100%;
